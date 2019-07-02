@@ -1,0 +1,27 @@
+body {
+    background-color: lightblue;
+}
+
+section {
+    margin: auto;
+    width: 50%;
+    border: black solid 1px;
+
+    main {
+        width: 80%;
+        height: 20em;
+        margin: auto;
+        margin-top: 2em;
+        margin-bottom: 1em;
+        border: black solid 1px;
+    }
+    .start-container {
+        border: black solid 1px;
+        margin: auto;
+        margin-top: 1em;
+        margin-bottom: 2em;
+        width: 80%;
+        height: 5em;
+        text-align: center;
+    }
+}
