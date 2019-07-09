@@ -14,7 +14,23 @@ section main {
   margin: auto;
   margin-top: 2em;
   margin-bottom: 1em;
-  border: black solid 1px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section main .fruits-container {
+  border: black 1px solid;
+  width: 150px;
+  height: 150px;
 }
 
 section .start-container {
@@ -25,5 +41,15 @@ section .start-container {
   width: 80%;
   height: 5em;
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section #start {
+  width: 100%;
 }
 /*# sourceMappingURL=style.css.map */
