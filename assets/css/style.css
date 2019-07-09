@@ -33,6 +33,11 @@ section main .fruits-container {
   height: 150px;
 }
 
+section main #results {
+  height: 3em;
+  width: 100%;
+}
+
 section .start-container {
   border: black solid 1px;
   margin: auto;
