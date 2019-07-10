@@ -5,7 +5,8 @@ body {
 section {
   margin: auto;
   width: 50%;
-  border: black solid 1px;
+  background-color: blue;
+  padding: 1em;
 }
 
 section main {
@@ -13,7 +14,7 @@ section main {
   height: 20em;
   margin: auto;
   margin-top: 2em;
-  margin-bottom: 1em;
+  margin-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -28,18 +29,28 @@ section main {
 }
 
 section main .fruits-container {
-  border: black 1px solid;
   width: 150px;
   height: 150px;
+  background-color: whitesmoke;
 }
 
 section main #results {
-  height: 3em;
+  height: 2em;
   width: 100%;
+  text-align: center;
+  font-size: 2em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section .start-container {
-  border: black solid 1px;
   margin: auto;
   margin-top: 1em;
   margin-bottom: 2em;
@@ -56,5 +67,7 @@ section .start-container {
 
 section #start {
   width: 100%;
+  font-size: 2em;
+  background-color: gray;
 }
 /*# sourceMappingURL=style.css.map */

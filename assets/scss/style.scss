@@ -5,33 +5,38 @@ body {
 section {
     margin: auto;
     width: 50%;
-    border: black solid 1px;
+    background-color: blue;
+    padding: 1em;
 
     main {
         width: 80%;
         height: 20em;
         margin: auto;
         margin-top: 2em;
-        margin-bottom: 1em;
+        margin-bottom: 0;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-between;
 
         .fruits-container {
-            border: black 1px solid;
             width: 150px;
             height: 150px;
+            background-color: whitesmoke;
         }
 
         #results {
-            height: 3em;
+            height: 2em;
             width: 100%;
+            text-align: center;
+            font-size: 2em;
+            display: flex;
+            align-items: center;
+            justify-content: center;
         }
     }
 
     .start-container {
-        border: black solid 1px;
         margin: auto;
         margin-top: 1em;
         margin-bottom: 2em;
@@ -44,5 +49,7 @@ section {
 
     #start {
         width: 100%;
+        font-size: 2em;
+        background-color: gray;
     }
 }

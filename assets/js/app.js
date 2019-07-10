@@ -59,7 +59,7 @@ const Play = img => {
         for (let i = 0; i < 3; i++) {
             imgTags[i].setAttribute('src', fruits[rdmImg[i]].path);
         }
-    }, 60);
+    }, 20);
 
     // ClearInterval after a short time and execute resultEvent function (toggle to false)
     setTimeout(() => {
@@ -78,22 +78,20 @@ const Play = img => {
                 }
             } else {
                 isWin = false;
-            } 
-            console.log(isWin);
+            }
             const results = document.getElementById('results');
             if (isWin) {
-                const response = document.createTextNode('You Win!');
-                results.appendChild(response);
+                results.innerHTML = 'You Win!';
+                results.style.backgroundColor = 'green';
             } else {
-                const response = document.createTextNode('You Lose!');
-                results.appendChild(response);
+                results.innerHTML = 'You Lose!';
+                results.style.backgroundColor = 'red';
             }
-            
             toggle = true;
         }
         resultEvent();
 
-    }, 500);
+    }, 1000);
 
     // Random function
     const getRandomInt = (min, max) => {
