@@ -2,24 +2,26 @@ body {
   background-color: lightblue;
 }
 
-section {
+.main {
   margin: auto;
-  width: 50%;
+  min-width: 50%;
+  max-width: 50%;
   background-color: blue;
   padding: 1em;
 }
 
-section main {
+.main main {
   width: 80%;
-  height: 20em;
+  height: 15em;
   margin: auto;
   margin-top: 2em;
   margin-bottom: 0;
+  padding-bottom: 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -28,15 +30,16 @@ section main {
           justify-content: space-between;
 }
 
-section main .fruits-container {
+.main main .fruits-container {
   width: 150px;
   height: 150px;
   background-color: whitesmoke;
 }
 
-section main #results {
+.main #results {
   height: 2em;
-  width: 100%;
+  width: 80%;
+  margin: auto;
   text-align: center;
   font-size: 2em;
   display: -webkit-box;
@@ -50,7 +53,7 @@ section main #results {
           justify-content: center;
 }
 
-section .start-container {
+.main .start-container {
   margin: auto;
   margin-top: 1em;
   margin-bottom: 2em;
@@ -65,7 +68,7 @@ section .start-container {
           justify-content: center;
 }
 
-section #start {
+.main #start {
   width: 100%;
   font-size: 2em;
   background-color: gray;

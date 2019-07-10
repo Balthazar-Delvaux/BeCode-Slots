@@ -2,20 +2,22 @@ body {
     background-color: lightblue;
 }
 
-section {
+.main {
     margin: auto;
-    width: 50%;
+    min-width: 50%;
+    max-width: 50%;
     background-color: blue;
     padding: 1em;
 
     main {
         width: 80%;
-        height: 20em;
+        height: 15em;
         margin: auto;
         margin-top: 2em;
         margin-bottom: 0;
+        padding-bottom: 0;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         align-items: center;
         justify-content: space-between;
 
@@ -24,16 +26,17 @@ section {
             height: 150px;
             background-color: whitesmoke;
         }
+    }
 
-        #results {
-            height: 2em;
-            width: 100%;
-            text-align: center;
-            font-size: 2em;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
+    #results {
+        height: 2em;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 2em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .start-container {

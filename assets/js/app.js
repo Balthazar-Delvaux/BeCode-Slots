@@ -4,7 +4,6 @@ const fruits = [{
     name: "cherries",
     path: "assets/img/cherries.webp",
     emoji: "🍒"
-
 }, {
     id: 2,
     name: "grape",
